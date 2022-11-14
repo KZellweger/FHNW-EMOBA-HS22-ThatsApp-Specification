@@ -5,10 +5,10 @@ Dataformat and Dataflow specification for Assignment 2 FHNW Emoba
 The Basic Topic for all Collaborators is `ch/fhnw/emoba/mo/*`
 
 ## Collaborator Profile
-[Profile Schema](https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/profile.schema.json)
+[Profile Schema](https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/blob/main/profile.schema.json)
 
 ## Messages
-[Message-Schema](https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/message.schema.json)
+[Message-Schema](https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/blob/main/message.schema.json)
 
 ## App Init and Chatroom Members
 To announce oneself in the global Chatroom the App must be registered in a central Topic on the Broker.
