@@ -18,6 +18,7 @@ Therefore, you must send an object according to [Profile Schema](https://github.
 
 On Connect:
 - Set your Online State to true.
+
 On Disconnect:
 - Set you Online State to false. 
 
