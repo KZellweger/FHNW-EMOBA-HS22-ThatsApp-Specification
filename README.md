@@ -23,4 +23,8 @@ On Disconnect:
 
 ## Message Exchange
 
+To send a Message to any Collaborator you can send a Message Object to them by publishing to their UUID. 
+A Message may contain any combination of Text, Images and Geo-Locations as payload. 
+An empty Message is as well possible but no behavior is specified (responsibility of the app).
+
 ![./DataFlow.png](./DataFlow.png)
