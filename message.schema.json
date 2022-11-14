@@ -1,0 +1,37 @@
+{
+  "$id": "https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/message.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A Message Object in the 'ThatsApp' Assignment.",
+  "type": "object",
+  "properties": {
+    "sender": {
+      "type": "string",
+      "description": "The MQTT Topic Suffix which identifies the Sender of the Message. Example '/Bob' if the Sender Topic was '$BaseTopic/Bob'"
+    },
+    "receiver": {
+      "type": "string",
+      "description": "The MQTT Topic Suffix which identifies the Sender of the Message. Example '/Alice' if the Sender Topic was '$BaseTopic/Alice'"
+    },
+    "payloadText": {
+      "type": "string",
+      "description": "Any Text as Message content."
+    },
+    "payloadImage": {
+      "type": "string",
+      "description": "Foto URL to file.io"
+    },
+    "payloadLocation": {
+      "type": "object",
+      "description": "A Geo-Location Object containing latitude and longitude",
+      "properties": {
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "required": [ "sender", "receiver" ]
+}

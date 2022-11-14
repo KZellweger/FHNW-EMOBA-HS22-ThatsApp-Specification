@@ -1,0 +1,29 @@
+{
+  "$id": "https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/message.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A Message Object in the 'ThatsApp' Assignment.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "A static UUID which identifies the collaborator."
+    },
+    "name": {
+      "type": "string",
+      "description": "Profile Name which may be displayed."
+    },
+    "greeting": {
+      "type": "string",
+      "description": "A greeting Text which may be displayed."
+    },
+    "profileImage": {
+      "type": "string",
+      "description": "Base64 Encoded Profile Image. Must not be lager than {TODO: Define Image size}"
+    },
+    "online": {
+      "type": "boolean",
+      "description": "Flag that represents the Online-State of the collaborator."
+    }
+  },
+  "required": [ "id", "name", "online" ]
+}
