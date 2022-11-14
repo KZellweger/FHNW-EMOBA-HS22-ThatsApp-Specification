@@ -18,3 +18,7 @@ On Connect:
 - Set your Online State to true.
 On Disconnect:
 - Set you Online State to false. 
+
+## Message Exchange
+
+![./DataFlow.png](./DataFlow.png)
