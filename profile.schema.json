@@ -22,7 +22,7 @@
     },
     "online": {
       "type": "boolean",
-      "description": "Deprecated. Flag that represents the Online-State of the collaborator."
+      "description": "Flag that represents the Online-State of the collaborator."
     }
   },
   "required": [ "id", "name" ]
