@@ -19,6 +19,8 @@ To enable a dynamic Profile Generation over multiple devices the following workf
 
 The Configuration `retainFlag=true, messageExpiryInterval=0` tells the Broker to send your Profile to each Client when they Connect to the Broker as long as your Client is online. When you close your Client your Profile will no longer be propagated to the other Collaborators.
 
+For further Details please Visit [https://www.hivemq.com/blog/mqtt5-essentials-part4-session-and-message-expiry](https://www.hivemq.com/blog/mqtt5-essentials-part4-session-and-message-expiry/#:~:text=Message%20Expiry%20Interval%20in%20MQTT%205,-A%20client%20can&text=When%20the%20retained%3Dtrue%20option,be%20retained%20for%20120%20seconds.)
+
 This makes the Online Flag in the [Profile Schema](https://github.com/KZellweger/FHNW-EMOBA-HS22-ThatsApp-Specification/profile.schema.json) obsolet.
 
 ## Message Exchange
