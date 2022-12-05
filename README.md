@@ -21,7 +21,7 @@ The Configuration `retainFlag=true, messageExpiryInterval=0` tells the Broker to
 
 For further Details please Visit [https://www.hivemq.com/blog/mqtt5-essentials-part4-session-and-message-expiry](https://www.hivemq.com/blog/mqtt5-essentials-part4-session-and-message-expiry/#:~:text=Message%20Expiry%20Interval%20in%20MQTT%205,-A%20client%20can&text=When%20the%20retained%3Dtrue%20option,be%20retained%20for%20120%20seconds.)
 
-### Optional Logoff
+### Logoff
 When you connect your Mqtt Client you may set your Last Will Message to set your Online State to false. So any Collaborator can display that state when you close your app. 
 [https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/](https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/)
 

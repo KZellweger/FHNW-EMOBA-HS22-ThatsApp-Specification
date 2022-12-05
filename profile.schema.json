@@ -25,5 +25,5 @@
       "description": "Flag that represents the Online-State of the collaborator."
     }
   },
-  "required": [ "id", "name" ]
+  "required": [ "id", "online" ]
 }
